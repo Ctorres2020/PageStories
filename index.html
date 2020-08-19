@@ -1,0 +1,84 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed: ValidationError: Invalid options object. HTML Loader has been initialized using an opti  ons object that does not match the API schema.
+   - options has an unknown property 'attrs'. These properties are valid:
+     object { preprocessor?, attributes?, minimize?, esModule? }
+  
+  - validate.js:96 validate
+    [frontend]/[html-loader]/[schema-utils]/dist/validate.js:96:11
+  
+  
+  - ValidationError: Invalid options object. HTML Loader has been initialized using an options object that doe    s not match the API schema.
+  
+  - - options has an unknown property 'attrs'. These properties are valid:
+  
+  - object { preprocessor?, attributes?, minimize?, esModule? }
+  
+  - compiler.js:79 
+    [frontend]/[html-webpack-plugin]/lib/compiler.js:79:16
+  
+  - Compiler.js:300 
+    [frontend]/[webpack]/lib/Compiler.js:300:11
+  
+  - Compiler.js:510 
+    [frontend]/[webpack]/lib/Compiler.js:510:14
+  
+  - Tapable.js:202 next
+    [frontend]/[webpack]/[tapable]/lib/Tapable.js:202:11
+  
+  - CachePlugin.js:78 Compiler.<anonymous>
+    [frontend]/[webpack]/lib/CachePlugin.js:78:5
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [frontend]/[webpack]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:507 
+    [frontend]/[webpack]/lib/Compiler.js:507:11
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [frontend]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:680 
+    [frontend]/[webpack]/lib/Compilation.js:680:19
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [frontend]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:671 
+    [frontend]/[webpack]/lib/Compilation.js:671:11
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [frontend]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:666 
+    [frontend]/[webpack]/lib/Compilation.js:666:10
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [frontend]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:662 sealPart2
+    [frontend]/[webpack]/lib/Compilation.js:662:9
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [frontend]/[webpack]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:605 Compilation.seal
+    [frontend]/[webpack]/lib/Compilation.js:605:8
+  
+  - Compiler.js:504 
+    [frontend]/[webpack]/lib/Compiler.js:504:17
+  
+  - Tapable.js:289 
+    [frontend]/[webpack]/[tapable]/lib/Tapable.js:289:11
+  
+  - Compilation.js:507 
+    [frontend]/[webpack]/lib/Compilation.js:507:11
+  
+  - Compilation.js:477 
+    [frontend]/[webpack]/lib/Compilation.js:477:14
+  
+  - task_queues.js:79 processTicksAndRejections
+    internal/process/task_queues.js:79:11
+  
+</pre><script type="text/javascript" src="./dist/javascript/bundle.js"></script>
